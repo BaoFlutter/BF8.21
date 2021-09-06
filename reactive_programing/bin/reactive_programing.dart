@@ -64,8 +64,7 @@ demoPublishSubject(){
 demoReplaySubject(){
 
   /*
-  ReplaySubject sẽ lấy hết giá trị thêm vào sau lệnh lấy dữ liệu và giá trị được thêm vào gần nhất
-  lệnh lấy giá trị trong Stream đó 
+  ReplaySubject sẽ lấy hết giá trị trong Stream dù add trước hay add sau
   */
   ReplaySubject replaySubject = ReplaySubject<int>();
  
