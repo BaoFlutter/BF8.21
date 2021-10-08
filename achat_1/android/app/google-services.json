@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "831016899237",
+    "project_id": "achat-fd290",
+    "storage_bucket": "achat-fd290.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831016899237:android:c643da8c3cfeac2f35734c",
+        "android_client_info": {
+          "package_name": "com.baoflutter.achat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831016899237-tc1go8gaenhjq9f8g83fvug5nvmlfrjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baoflutter.achat",
+            "certificate_hash": "3d57b9423f94a184961bbe6e80d55d7da544e535"
+          }
+        },
+        {
+          "client_id": "831016899237-j0h85l4po5tcrqsgukeu46gppppspbn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrtVTbmmf-XyF9k0Tnb-aStmfsw2W6-j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831016899237-j0h85l4po5tcrqsgukeu46gppppspbn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
