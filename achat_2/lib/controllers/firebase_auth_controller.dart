@@ -3,6 +3,8 @@ import 'dart:io';
 
 import 'package:achat/data_sources/firebase_services.dart';
 import 'package:achat/models/app_user.dart';
+import 'package:achat/resources/utils/utils.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 enum AuthStatus {none, authenticate, unauthenticate}
@@ -78,6 +80,7 @@ class FirebaseAuthController with ChangeNotifier{
     await _firebaseService.signOut();
     _unLoading();
   }
+
 
   _loading() {
     isLoading = true;

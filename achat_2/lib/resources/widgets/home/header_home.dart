@@ -47,7 +47,7 @@ class HeaderHome extends StatelessWidget {
               Navigator.push(context,
                   MaterialPageRoute(builder: (_) => ChangeProfileScreen()));
 
-              */
+               */
 
             } else {
               context.read<FirebaseAuthController>().signOut();
